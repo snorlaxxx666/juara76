@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "scrapper sunda",
+  "version": "1.1",
+  "icons": {
+    "48": "icons/izin.jpg",
+    "128": "icons/izin.jpg"
+  },
+  "description": "scrape nomor nomor yang ada di grup wa -> ekspor ke .csv",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "wa-scraper@example.com"
+    }
+  }
+}
