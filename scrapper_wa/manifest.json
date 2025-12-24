@@ -3,8 +3,8 @@
   "name": "scrapper sunda",
   "version": "1.1",
   "icons": {
-    "48": "icons/izin.jpg",
-    "128": "icons/izin.jpg"
+    "48": "icons/izin 48.jpg",
+    "128": "icons/izin 128.jpg"
   },
   "description": "scrape nomor nomor yang ada di grup wa -> ekspor ke .csv",
   "permissions": [
